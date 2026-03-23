@@ -19,16 +19,16 @@ module.exports = {
 	onChat: async function ({ event, message }) {
 		if (event.body && event.body.toLowerCase() === "ff") {
 			const mediaLinks = [
-				"https://files.catbox.moe/zxj1vt.mp4",
-				"https://files.catbox.moe/zxj1vt.mp4",
-				"https://files.catbox.moe/zxj1vt.mp4",
-				"https://files.catbox.moe/zxj1vt.mp4",
-				"https://files.catbox.moe/zxj1vt.mp4",
-				"https://files.catbox.moe/zxj1vt.mp4",
-				"https://files.catbox.moe/zxj1vt.mp4",
-				"https://files.catbox.moe/zxj1vt.mp4",
-				"https://files.catbox.moe/zxj1vt.mp4",
-				"https://files.catbox.moe/zxj1vt.mp4"
+				"https://files.catbox.moe/p8qqjd.mp4",
+				"https://files.catbox.moe/p8qqjd.mp4",
+				"https://files.catbox.moe/p8qqjd.mp4",
+				"https://files.catbox.moe/p8qqjd.mp4",
+				"https://files.catbox.moe/p8qqjd.mp4",
+				"https://files.catbox.moe/p8qqjd.mp4",
+				"https://files.catbox.moe/p8qqjd.mp4",
+				"https://files.catbox.moe/p8qqjd.mp4",
+				"https://files.catbox.moe/p8qqjd.mp4",
+				"https://files.catbox.moe/p8qqjd.mp4"
 			];
 
 			const randomLink = mediaLinks[Math.floor(Math.random() * mediaLinks.length)];
